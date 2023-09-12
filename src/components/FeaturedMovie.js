@@ -7,9 +7,13 @@ export default function FeaturedMovie({item}) {
        let genres = [];
        for(let i in item.genres) {
         genres.push(item.genres[i].name)};
+        let title = item.original_name;
+        if(title.length > 22) {
+            title = title.substring(0, 22)+`...`;
+        }
         let description = item.overview;
-        if(description.length > 150) {
-            description = description.substring(0, 150)+`...`;
+        if(description.length > 100) {
+            description = description.substring(0, 100)+`...`;
         }
         if(description.length <= 0) {
             description = description.substring(0, 12)+`Sem descrição`;
@@ -25,7 +29,7 @@ export default function FeaturedMovie({item}) {
             }}>
                 <div className="featured--vertical">
                     <div className="featured--horizontal">
-                        <div className="featured--name">{item.original_name}</div>
+                        <div className="featured--name">{title}</div>
                         <div className="featured--info">
                             <div className="featured--points">{rounded} pontos</div>
                             <div className="featured--year">{firstDate.getFullYear()}</div>
