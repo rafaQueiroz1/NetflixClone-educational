@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/NetflixClone-educational/static/css/main.94a6b2cf.css",
-    "main.js": "/NetflixClone-educational/static/js/main.c53510b5.js",
+    "main.css": "/NetflixClone-educational/static/css/main.edc05ee8.css",
+    "main.js": "/NetflixClone-educational/static/js/main.6a88639a.js",
     "index.html": "/NetflixClone-educational/index.html",
-    "main.94a6b2cf.css.map": "/NetflixClone-educational/static/css/main.94a6b2cf.css.map",
-    "main.c53510b5.js.map": "/NetflixClone-educational/static/js/main.c53510b5.js.map"
+    "main.edc05ee8.css.map": "/NetflixClone-educational/static/css/main.edc05ee8.css.map",
+    "main.6a88639a.js.map": "/NetflixClone-educational/static/js/main.6a88639a.js.map"
   },
   "entrypoints": [
-    "static/css/main.94a6b2cf.css",
-    "static/js/main.c53510b5.js"
+    "static/css/main.edc05ee8.css",
+    "static/js/main.6a88639a.js"
   ]
 }
