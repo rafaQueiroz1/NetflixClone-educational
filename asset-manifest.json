@@ -1,13 +1,13 @@
 {
-  "main.css": "/NetflixClone-educational/static/css/main.aa5cc1e8.chunk.css",
-  "main.js": "/NetflixClone-educational/static/js/main.e96efef3.chunk.js",
-  "main.js.map": "/NetflixClone-educational/static/js/main.e96efef3.chunk.js.map",
-  "static/js/1.45e8e94d.chunk.js": "/NetflixClone-educational/static/js/1.45e8e94d.chunk.js",
-  "static/js/1.45e8e94d.chunk.js.map": "/NetflixClone-educational/static/js/1.45e8e94d.chunk.js.map",
-  "runtime~main.js": "/NetflixClone-educational/static/js/runtime~main.c757257d.js",
-  "runtime~main.js.map": "/NetflixClone-educational/static/js/runtime~main.c757257d.js.map",
-  "static/css/main.aa5cc1e8.chunk.css.map": "/NetflixClone-educational/static/css/main.aa5cc1e8.chunk.css.map",
-  "index.html": "/NetflixClone-educational/index.html",
-  "precache-manifest.db289217935d979b834b8e2c53213bb6.js": "/NetflixClone-educational/precache-manifest.db289217935d979b834b8e2c53213bb6.js",
-  "service-worker.js": "/NetflixClone-educational/service-worker.js"
+  "files": {
+    "main.css": "/NetflixClone-educational/static/css/main.94a6b2cf.css",
+    "main.js": "/NetflixClone-educational/static/js/main.4bac63f8.js",
+    "index.html": "/NetflixClone-educational/index.html",
+    "main.94a6b2cf.css.map": "/NetflixClone-educational/static/css/main.94a6b2cf.css.map",
+    "main.4bac63f8.js.map": "/NetflixClone-educational/static/js/main.4bac63f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94a6b2cf.css",
+    "static/js/main.4bac63f8.js"
+  ]
 }
