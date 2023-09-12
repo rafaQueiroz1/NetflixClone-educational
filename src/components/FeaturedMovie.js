@@ -11,8 +11,8 @@ export default function FeaturedMovie({item}) {
         if(description.length > 150) {
             description = description.substring(0, 150)+`...`;
         }
-        if(description.length === 0) {
-            description = description.substring(0, 0)+`Sem descrição`;
+        if(description.length <= 0) {
+            description = description.substring(0, 12)+`Sem descrição`;
         }
         let points = item.vote_average;
         let rounded = points.toFixed(1);
